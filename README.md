@@ -12,6 +12,6 @@ This project is the logical next step based on the Project 3 that was created by
 For this project we are utilizing the data we collected during Project 3 and using the concepts of Machine Learning, we are trying to create a predition model which will help analyze the School Rating in a particular area based on the social-economical parameter
 
 ## Input
-We had used the following to collect our the following input sources:
+We had used the following sources to collect our input data:
 
 ![gs](Images/gs.png) ![census](Images/census.png) ![sandag](Images/sandag.png)
