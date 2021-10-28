@@ -33,5 +33,3 @@ AWS Cloud Database (PostgreSQL) was used to store our data features before being
 
 ![mlmaster](Images/mlmaster.png)
 * The table provided information on individual Schools and students in the San Diego County and also has important data parameters on the Zipcode's population, median income,  crime statistics etc. This table was used heavily for prediction.
-
-
