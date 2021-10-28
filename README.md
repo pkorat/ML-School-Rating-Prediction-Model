@@ -17,6 +17,7 @@ For this project we are utilizing the data we collected during Project 3 and usi
 * Python Plotly
 * Python PANDAS
 * Scikit-learn
+* Tableau
 
 ## Input
 Following sources to collect our input data:
