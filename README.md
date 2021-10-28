@@ -25,7 +25,12 @@ Following sources to collect our input data:
 ![gs](Images/gs.png) ![census](Images/census.png) ![sandag](Images/sandag.png)
 
 ## Database
-AWS Cloud Database (PostgreSQL) was used to store our data features before being utilized by the model. Two new database tables were created for the project:
+AWS Cloud Database (PostgreSQL) was used to store our data features before being utilized by the model. 
+* remote_db_endpoint = 'bulldogs-3.cznzpremohjj.us-east-2.rds.amazonaws.com'
+* remote_db_port = '5432'
+* remote_db_name = 'Bulldogs'
+
+Two new database tables were created for the project:
 * `sd_master_df`
 
 ![sdmaster](Images/sdmaster.png)
@@ -35,3 +40,9 @@ AWS Cloud Database (PostgreSQL) was used to store our data features before being
 
 ![mlmaster](Images/mlmaster.png)
 * The table provided information on individual Schools and students in the San Diego County and also has important data parameters on the Zipcode's population, median income,  crime statistics etc. This table was used heavily for prediction.
+
+## Data Cleansing
+The table `ml_master_clean` had more than 50 columns i.e. features for the prediction analysis to start. However before the data could be used we performed some data cleaning activities. Some of the data cleaning activities done are as follows:
+* Four New Columns for Crime ratios are created which will standardize the count with the Zipcode population. The new columns created are 'Theft Count Ratio', 'Substance Abuse Count Ratio', 'Violent Count Ratio' and 'Miscellaneous Count Ratio'
+* Removing the Crime Actual Counts from the dataframe i.e. Theft Count, Substance Abuse Count, Violent Count and Miscellaneous Count
+* Removing columns which might not be critical like latitude, longitude, School address, City and Grades
