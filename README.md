@@ -1,5 +1,11 @@
 # PROJECT 4: MACHINE LEARNING - SCHOOL RATING PREDICTION MODEL
 
+## Team Members:
+* Parth Korat
+* Geoff Pawlowski
+* Amelia Corea
+* Ashutosh Sawant
+
 ## Backgound
 This project is the logical next step based on the Project 3 that was created by Team Bulldog. The link for the project is https://github.com/pkorat/San-Diego-County-Education-Equity-Analysis. In this project we had collected data from various sources and tried to analyze whether the Public Education System serve all Residents in San Diego County Equally?
 
