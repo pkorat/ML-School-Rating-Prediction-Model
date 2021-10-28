@@ -25,7 +25,12 @@ Following sources to collect our input data:
 ![gs](Images/gs.png) ![census](Images/census.png) ![sandag](Images/sandag.png)
 
 ## Database
-AWS Cloud Database (PostgreSQL) was used to store our data features before being utilized by the model. Two new database tables were created for the project:
+AWS Cloud Database (PostgreSQL) was used to store our data features before being utilized by the model. 
+* remote_db_endpoint = 'bulldogs-3.cznzpremohjj.us-east-2.rds.amazonaws.com'
+* remote_db_port = '5432'
+* remote_db_name = 'Bulldogs'
+
+Two new database tables were created for the project:
 * `sd_master_df`
 
 ![sdmaster](Images/sdmaster.png)
