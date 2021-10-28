@@ -20,7 +20,7 @@ For this project we are utilizing the data we collected during Project 3 and usi
 * Tableau
 
 ## Input
-Following sources to collect our input data:
+Following sources were used to collect our input data:
 
 ![gs](Images/gs.png) ![census](Images/census.png) ![sandag](Images/sandag.png)
 
