@@ -42,7 +42,7 @@ Two new database tables were created for the project:
 * The table provided information on individual Schools and students in the San Diego County and also has important data parameters on the Zipcode's population, median income,  crime statistics etc. This table was used heavily for prediction.
 
 ## Data Cleansing
-The table `ml_master_clean` had more than 50 columns i.e. features for the prediction analysis to start. However before the data could be used we performed some data cleaning on the data obtained from the database. Some of the data cleaning activities done are as follows:
+The table `ml_master_clean` had more than 50 columns i.e. features for the prediction analysis to start. However before the data could be used we performed some data cleaning activities. Some of the data cleaning activities done are as follows:
 * Four New Columns for Crime ratios are created which will standardize the count with the Zipcode population. The new columns created are 'Theft Count Ratio', 'Substance Abuse Count Ratio', 'Violent Count Ratio' and 'Miscellaneous Count Ratio'
 * Removing the Crime Actual Counts from the dataframe i.e. Theft Count, Substance Abuse Count, Violent Count and Miscellaneous Count
 * Removing columns which might not be critical like latitude, longitude, School address, City and Grades
