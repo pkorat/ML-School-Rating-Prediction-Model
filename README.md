@@ -46,3 +46,16 @@ The table `ml_master_clean` had more than 50 columns i.e. features for the predi
 * Four New Columns for Crime ratios are created which will standardize the count with the Zipcode population. The new columns created are 'Theft Count Ratio', 'Substance Abuse Count Ratio', 'Violent Count Ratio' and 'Miscellaneous Count Ratio'
 * Removing the Crime Actual Counts from the dataframe i.e. Theft Count, Substance Abuse Count, Violent Count and Miscellaneous Count
 * Removing columns which might not be critical like latitude, longitude, School address, City and Grades
+
+## Dataset Composition
+* 696 Individual Schools
+* 50 Features
+* Feature Categories
+  * Median Income by Ethnicity at Zipcode Level
+  * Family Structure at Zipcode Level
+  * Educational Attainment Levels at Zipcode Level
+  * Number of Students at School
+  * Crime Rates per Population at Zipcode Level
+  * Population Type by Ethnicity at Zipcode Level
+* Target – School Rating 1- 10
+
