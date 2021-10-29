@@ -59,3 +59,17 @@ The table `ml_master_clean` had more than 50 columns i.e. features for the predi
   * Population Type by Ethnicity at Zipcode Level
 * Target – School Rating 1- 10
 
+![mlcompostion](Images/mlcompostion.png)
+
+## Machine Learning Models Used
+
+![mlmodels](Images/mlmodels.png)
+
+# CONCLUSION
+
+**We created several models that can predict a schools performance rating +/- 1 point ~66% of the time, using just demographic data. 
+**This should make us question how our education dollars and programs are being spent and administered.  
+**This should also make us study outliers to our models to see where “breakaway schools are achieving better outcomes than the demographics would suggest.   
+
+
+
