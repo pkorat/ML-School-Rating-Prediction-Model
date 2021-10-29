@@ -19,6 +19,8 @@ For this project we are utilizing the data we collected during Project 3 and usi
 * Scikit-learn
 * Tableau
 
+![ml](Images/ml.png) ![aws](Images/aws.png) ![tableau](Images/tableau.png) ![python](Images/python.png) ![pgadmin](Images/pgadmin.png)
+
 ## Input
 Following sources were used to collect our input data:
 
