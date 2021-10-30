@@ -67,6 +67,8 @@ The table `ml_master_clean` had more than 50 columns i.e. features for the predi
 
 ![mlmodels](Images/mlmodels.png)
 
+## Tableau Analysis Link: https://public.tableau.com/app/profile/geoffrey.pawlowski/viz/SDCountySchoolRatingDatavsUSCensusDemographicData/ViolentCrimevsSchoolRating
+
 # CONCLUSION
 
 * We created several models that can predict a schools performance rating +/- 1 point ~66% of the time, using just demographic data. 
